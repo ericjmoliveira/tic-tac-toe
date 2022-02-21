@@ -70,7 +70,6 @@ function startNewGame() {
         
         playsLog[i] = '';
         playsCount = 0;
-        gameDraw = false;
         isGameOver = false;
     }
 
@@ -95,6 +94,7 @@ function checkForDraw() {
     if (playsCount === 9 && !isGameOver) {
         infoBoard.textContent = 'DRAW';
         isGameOver = true;
+        
         return true;
     }
 }
