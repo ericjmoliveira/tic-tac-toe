@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	font-family: cursive, sans-serif;
-	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
 }
 
 body {
@@ -68,7 +70,7 @@ body {
 }
 
 .highlight-play {
-	background-color: #333;
+	background-color: rgb(185, 15, 15);
 	color: #ddd;
 	transition: ease 0.5s;
 }
